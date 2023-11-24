@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman, sans-serif;
+    background-color:rgb(247, 183, 109);
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+h4 {
+    margin-top: 20px;
+    font-size: 36px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+/* Шапка */
+.header {
+    background-color:rgb(232, 106, 16);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header img {
+    width: 150px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+/* Секция с каталогом блюд */
+.catalog {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog .item {
+    width: calc(25% - 20px);
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.catalog .item img {
+    width: 100%;
+}
+
+.catalog .item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.catalog .item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Секция с хитом блюд */
+.promo-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.promo-catalog .item {
+    width: calc(20% - 20px);
+    padding: 20px;
+    background-color:rgb(240, 213, 194);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.promo-catalog .item img {
+    width: 100%;
+}
+
+.promo-catalog .item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.promo-catalog .item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
