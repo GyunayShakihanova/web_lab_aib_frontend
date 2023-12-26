@@ -1,2 +1,2 @@
-xlsxwriter==3.1.5
+xlsxwriter==3.1.5 # этот пакет вам пригодится
 requests==2.31.0
